@@ -2,7 +2,7 @@
 # docker build -t="jeffdavisco/mongodb:latest" .
 
 # Pull base image.
-FROM dockerfile/ubuntu
+FROM ubuntu
 
 # Install MongoDB.
 RUN \
